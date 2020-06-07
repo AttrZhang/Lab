@@ -1,1 +1,3 @@
-declare content
+windows命令行:
+cat:查看文件
+vim:编辑文件
