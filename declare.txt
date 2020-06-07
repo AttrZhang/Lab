@@ -1,6 +1,8 @@
 windows命令行:
 cat:查看文件
 vim:编辑文件
+type 文件名(包括后缀名):创建文件
+del 文件名   删除文件
 
 git add 文件名 
 git commit -m 描述信息
@@ -12,3 +14,8 @@ git中HEAD表示当前版本 上一个版本 HEAD^   再上一个版本HEAD^^  �
 git reset 回退版本  git reset --hard 版本(HEAD~n || commit id)
 git reflog 用来记录你每一次执行的命令
 
+git branch 创建分支   git branch name
+创建并进入分支 git checkout -b name
+git pul 拉取
+git branch -list 查看分支
+git branch -a 查看分支包括远程分支
